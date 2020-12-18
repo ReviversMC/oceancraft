@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "oceancraft",
+  "version": "${version}",
+
+  "name": "Oceancraft",
+  "description": "Extends Minecraft's oceans with a much greater variety of animals, plants, building blocks and more. Update Aquatic 2.0!\nOriginal mod made by thomassu.",
+  "authors": [
+    "NebelNidas"
+  ],
+  "contact": {
+    "homepage": "https://github.com/NebelNidas/Oceancraft",
+    "sources": "https://github.com/NebelNidas/Oceancraft"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/oceancraft/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.github.nebelnidas.oceancraft.Oceancraft"
+    ]
+  },
+  "mixins": [
+
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "minecraft": "1.16.x"
+  }
+}

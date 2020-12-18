@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "###",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "oceancraft:coral_dust"
+        }
+    },
+    "result": {
+		"item": "oceancraft:coral_ingot",
+		"count": 1
+	}
+}

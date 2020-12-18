@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#"
+    ],
+    "key": {
+        "#": {
+            "tag": "c:corals"
+        }
+    },
+    "result": {
+		"item": "oceancraft:coral_dust"
+	}
+}

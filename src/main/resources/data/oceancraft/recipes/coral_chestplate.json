@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "# #",
+        "###",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "oceancraft:coral_ingot"
+        }
+    },
+    "result": {
+		"item": "oceancraft:coral_chestplate",
+		"count": 1
+	}
+}

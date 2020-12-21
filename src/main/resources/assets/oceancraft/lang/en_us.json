@@ -9,7 +9,7 @@
 	"tile.oceancraft.BlockBrainCoral": "Coral",
 	"tile.oceancraft.BlockOyster": "Oyster",
 	"tile.oceancraft.BlockOysterSeeds": "Oyster Seeds",
-	"tile.oceancraft.BlockSeaweed": "Block of Seaweed",
+	"block.oceancraft.seaweed_block": "Seaweed Block",
 	"tile.oceancraft.BlockSeaShell1": "Sea Shell",
 	"tile.oceancraft.BlockSeaShell2": "Sea Shell",
 	"tile.oceancraft.BlockSeaShell3": "Sea Shell",

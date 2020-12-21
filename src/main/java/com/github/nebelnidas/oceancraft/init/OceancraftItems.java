@@ -7,6 +7,7 @@ import com.github.nebelnidas.oceancraft.items.*;
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.item.ArmorItem;
 import net.minecraft.item.ArmorMaterial;
+import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ToolItem;
 import net.minecraft.item.ToolMaterial;
@@ -35,7 +36,11 @@ public class OceancraftItems {
 	public static ArmorItem CORAL_LEGGINGS;
 	public static ArmorItem CORAL_BOOTS;
 
+	public static BlockItem SEAWEED_BLOCK;
+
 	public static void init() {
+		SEAWEED_BLOCK = new BlockItem(OceancraftBlocks.SEAWEED_BLOCK, new Item.Settings().group(Oceancraft.itemGroup));
+
 		CORAL_DUST = new Item(new Item.Settings().group(Oceancraft.itemGroup));
 		CORAL_INGOT = new Item(new Item.Settings().group(Oceancraft.itemGroup));
 		CORAL_SWORD = new CoralSwordItem(CORAL_TOOL_MATERIAL, new Item.Settings().group(Oceancraft.itemGroup));
@@ -53,6 +58,8 @@ public class OceancraftItems {
 
 
 		
+		SEAWEED_BLOCK = Registry.register(Registry.ITEM, new Identifier(Oceancraft.MOD_ID, "seaweed_block"), SEAWEED_BLOCK);
+
 		CORAL_DUST = Registry.register(Registry.ITEM, new Identifier(Oceancraft.MOD_ID, "coral_dust"), CORAL_DUST);
 		CORAL_INGOT = Registry.register(Registry.ITEM, new Identifier(Oceancraft.MOD_ID, "coral_ingot"), CORAL_INGOT);
 		CORAL_SWORD = Registry.register(Registry.ITEM, new Identifier(Oceancraft.MOD_ID, "coral_sword"), CORAL_SWORD);

@@ -19,6 +19,7 @@ public class Oceancraft implements ModInitializer {
 	public void onInitialize() {
 		itemGroup = FabricItemGroupBuilder.build(new Identifier(MOD_ID, "oceancraft"), () -> new ItemStack(OceancraftItems.CORAL_HELMET));
 
+		OceancraftBlocks.init();
 		OceancraftItems.init();
 	}
 	

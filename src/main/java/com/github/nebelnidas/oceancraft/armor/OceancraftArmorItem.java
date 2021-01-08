@@ -5,9 +5,9 @@ import net.minecraft.item.ArmorItem;
 import net.minecraft.item.ArmorMaterial;
 
 
-public class CoralArmorBase extends ArmorItem {
+public class OceancraftArmorItem extends ArmorItem {
 
-	public CoralArmorBase(ArmorMaterial material, EquipmentSlot slot, Settings settings) {
+	public OceancraftArmorItem(ArmorMaterial material, EquipmentSlot slot, Settings settings) {
 		super(material, slot, settings);
 	}
 	

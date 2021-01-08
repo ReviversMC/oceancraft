@@ -49,10 +49,10 @@ public class OceancraftItems {
 		CORAL_PICKAXE = new CoralPickaxeItem(new CoralToolMaterial(), new Item.Settings().group(Oceancraft.itemGroup));
 		CORAL_HOE = new CoralHoeItem(CORAL_TOOL_MATERIAL, new Item.Settings().group(Oceancraft.itemGroup));
 
-		CORAL_HELMET = new CoralArmorBase(CORAL_ARMOR_MATERIAL, EquipmentSlot.HEAD, new Item.Settings().group(Oceancraft.itemGroup));
-		CORAL_CHESTPLATE = new CoralArmorBase(CORAL_ARMOR_MATERIAL, EquipmentSlot.CHEST, new Item.Settings().group(Oceancraft.itemGroup));
-		CORAL_LEGGINGS = new CoralArmorBase(CORAL_ARMOR_MATERIAL, EquipmentSlot.LEGS, new Item.Settings().group(Oceancraft.itemGroup));
-		CORAL_BOOTS = new CoralArmorBase(CORAL_ARMOR_MATERIAL, EquipmentSlot.FEET, new Item.Settings().group(Oceancraft.itemGroup));
+		CORAL_HELMET = new OceancraftArmorItem(CORAL_ARMOR_MATERIAL, EquipmentSlot.HEAD, new Item.Settings().group(Oceancraft.itemGroup));
+		CORAL_CHESTPLATE = new OceancraftArmorItem(CORAL_ARMOR_MATERIAL, EquipmentSlot.CHEST, new Item.Settings().group(Oceancraft.itemGroup));
+		CORAL_LEGGINGS = new OceancraftArmorItem(CORAL_ARMOR_MATERIAL, EquipmentSlot.LEGS, new Item.Settings().group(Oceancraft.itemGroup));
+		CORAL_BOOTS = new OceancraftArmorItem(CORAL_ARMOR_MATERIAL, EquipmentSlot.FEET, new Item.Settings().group(Oceancraft.itemGroup));
 
 		BLACK_PEARL = new Item(new Item.Settings().group(Oceancraft.itemGroup));
 

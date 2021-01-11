@@ -6,7 +6,8 @@ This mod is a port of the original Oceancraft mod made by [thomassu](https://web
 - [MinecraftForum](https://web.archive.org/web/20170923143204/http:/www.minecraftforum.net/forums/mapping-and-modding-java-edition/minecraft-mods/1292144-oceancraft-mod-with-whales-sharks-lobsters-and)
 - [Curseforge](https://www.curseforge.com/minecraft/mc-mods/oceancraft-mod)
 
-It extends Minecraft's oceans with a much greater variety of animals, plants, building blocks and more. Update Aquatic 2.0!
+It extends Minecraft's oceans with a much greater variety of animals, plants, building blocks and more. Update Aquatic 2.0!
 
 
 NOTE: This mod is currently in Alpha and is missing many features. They will be added over the next few months!
+

@@ -7,6 +7,7 @@ import com.github.nebelnidas.oceancraft.items.*;
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.item.ArmorItem;
 import net.minecraft.item.ArmorMaterial;
+import net.minecraft.item.ArmorMaterials;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ToolItem;
@@ -19,6 +20,7 @@ import net.minecraft.util.registry.Registry;
 public class OceancraftItems {
 	public static final ToolMaterial CORAL_TOOL_MATERIAL = new CoralToolMaterial();
 	public static final ArmorMaterial CORAL_ARMOR_MATERIAL = new CoralArmorMaterial();
+	public static final ArmorMaterial OCEANCRAFT_TURTLE_ARMOR_MATERIAL = new OceancraftTurtleArmorMaterial();
 
 
 	public static Item BLACK_PEARL;
@@ -36,6 +38,7 @@ public class OceancraftItems {
 	public static ArmorItem CORAL_LEGGINGS;
 	public static ArmorItem CORAL_BOOTS;
 
+	public static ArmorItem TURTLE_SHELL;
 	public static BlockItem SEAWEED_BLOCK;
 
 	public static void init() {
@@ -54,6 +57,7 @@ public class OceancraftItems {
 		CORAL_LEGGINGS = new OceancraftArmorItem(CORAL_ARMOR_MATERIAL, EquipmentSlot.LEGS, new Item.Settings().group(Oceancraft.itemGroup));
 		CORAL_BOOTS = new OceancraftArmorItem(CORAL_ARMOR_MATERIAL, EquipmentSlot.FEET, new Item.Settings().group(Oceancraft.itemGroup));
 
+		TURTLE_SHELL = new OceancraftArmorItem(OCEANCRAFT_TURTLE_ARMOR_MATERIAL, EquipmentSlot.CHEST, new Item.Settings().group(Oceancraft.itemGroup));
 		BLACK_PEARL = new Item(new Item.Settings().group(Oceancraft.itemGroup));
 
 
@@ -73,6 +77,7 @@ public class OceancraftItems {
 		CORAL_LEGGINGS = Registry.register(Registry.ITEM, new Identifier(Oceancraft.MOD_ID, "coral_leggings"), CORAL_LEGGINGS);
 		CORAL_BOOTS = Registry.register(Registry.ITEM, new Identifier(Oceancraft.MOD_ID, "coral_boots"), CORAL_BOOTS);
 
+		TURTLE_SHELL = Registry.register(Registry.ITEM, new Identifier(Oceancraft.MOD_ID, "turtle_shell"), TURTLE_SHELL);
 		BLACK_PEARL = Registry.register(Registry.ITEM, new Identifier(Oceancraft.MOD_ID, "black_pearl"), BLACK_PEARL);
 	}
 }

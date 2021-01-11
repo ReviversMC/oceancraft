@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "# #",
+        "###",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:scute"
+        }
+    },
+    "result": {
+		"item": "oceancraft:turtle_shell",
+		"count": 1
+	}
+}

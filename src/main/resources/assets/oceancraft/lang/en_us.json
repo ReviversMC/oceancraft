@@ -71,6 +71,8 @@
 	"item.oceancraft.white_pearl": "White Pearl",
 	"item.oceancraft.black_pearl": "Black Pearl",
 	"item.oceancraft.water_pearl": "Water Pearl",
+	"item.oceancraft.water_pearl.tooltip": "Gives underwater effects",
+	"item.oceancraft.enchanted_water_pearl": "Enchanted Water Pearl",
 	"item.oceancraft.ocean_metal": "Ocean Metal",
 	"item.oceancraft.snorkel": "Snorkel",
 	"item.oceancraft.snorkel_with_lantern": "Snorkel With Lantern",

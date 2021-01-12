@@ -7,7 +7,6 @@ import com.github.nebelnidas.oceancraft.items.*;
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.item.ArmorItem;
 import net.minecraft.item.ArmorMaterial;
-import net.minecraft.item.ArmorMaterials;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ToolItem;
@@ -41,6 +40,10 @@ public class OceancraftItems {
 	public static ArmorItem CORAL_BOOTS;
 
 	public static ArmorItem TURTLE_SHELL;
+
+	public static WaterPearlItem WATER_PEARL;
+	public static EnchantedWaterPearlItem ENCHANTED_WATER_PEARL;
+
 	public static BlockItem SEAWEED_BLOCK;
 
 	public static void init() {
@@ -60,7 +63,10 @@ public class OceancraftItems {
 		CORAL_BOOTS = new OceancraftArmorItem(CORAL_ARMOR_MATERIAL, EquipmentSlot.FEET, DEFAULT_ITEM_SETTINGS);
 
 		TURTLE_SHELL = new OceancraftArmorItem(OCEANCRAFT_TURTLE_ARMOR_MATERIAL, EquipmentSlot.CHEST, DEFAULT_ITEM_SETTINGS);
+
 		BLACK_PEARL = new Item(DEFAULT_ITEM_SETTINGS);
+		WATER_PEARL = new WaterPearlItem(DEFAULT_ITEM_SETTINGS);
+		ENCHANTED_WATER_PEARL = new EnchantedWaterPearlItem(DEFAULT_ITEM_SETTINGS);
 
 
 
@@ -80,7 +86,10 @@ public class OceancraftItems {
 		CORAL_BOOTS = registerItem(CORAL_BOOTS, "coral_boots");
 
 		TURTLE_SHELL = registerItem(TURTLE_SHELL, "turtle_shell");
+
 		BLACK_PEARL = registerItem(BLACK_PEARL, "black_pearl");
+		WATER_PEARL = registerItem(WATER_PEARL, "water_pearl");
+		ENCHANTED_WATER_PEARL = registerItem(ENCHANTED_WATER_PEARL, "enchanted_water_pearl");
 	}
 
 	private static <T extends Item> T registerItem(Item item, String id) {

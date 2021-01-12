@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " # ",
+        "#X#",
+        " # "
+    ],
+    "key": {
+        "#": {
+            "item": "oceancraft:seaweed_crop"
+        },
+        "X": {
+            "item": "oceancraft:black_pearl"
+        }
+    },
+    "result": {
+		"item": "oceancraft:enchanted_water_pearl",
+		"count": 1
+	}
+}

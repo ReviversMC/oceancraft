@@ -17,6 +17,8 @@ import net.minecraft.util.registry.Registry;
 
 // This class exports public item constants, these fields have to be public
 public class OceancraftItems {
+	public static final Item.Settings DEFAULT_ITEM_SETTINGS = new Item.Settings().group(Oceancraft.itemGroup);
+
 	public static final ToolMaterial CORAL_TOOL_MATERIAL = new CoralToolMaterial();
 	public static final ArmorMaterial CORAL_ARMOR_MATERIAL = new CoralArmorMaterial();
 
@@ -39,40 +41,44 @@ public class OceancraftItems {
 	public static BlockItem SEAWEED_BLOCK;
 
 	public static void init() {
-		SEAWEED_BLOCK = new BlockItem(OceancraftBlocks.SEAWEED_BLOCK, new Item.Settings().group(Oceancraft.itemGroup));
+		SEAWEED_BLOCK = new BlockItem(OceancraftBlocks.SEAWEED_BLOCK, DEFAULT_ITEM_SETTINGS);
 
-		CORAL_DUST = new Item(new Item.Settings().group(Oceancraft.itemGroup));
-		CORAL_INGOT = new Item(new Item.Settings().group(Oceancraft.itemGroup));
-		CORAL_SWORD = new CoralSwordItem(CORAL_TOOL_MATERIAL, new Item.Settings().group(Oceancraft.itemGroup));
-		CORAL_SHOVEL = new CoralShovelItem(CORAL_TOOL_MATERIAL, new Item.Settings().group(Oceancraft.itemGroup));
-		CORAL_AXE = new CoralAxeItem(CORAL_TOOL_MATERIAL, new Item.Settings().group(Oceancraft.itemGroup));
-		CORAL_PICKAXE = new CoralPickaxeItem(new CoralToolMaterial(), new Item.Settings().group(Oceancraft.itemGroup));
-		CORAL_HOE = new CoralHoeItem(CORAL_TOOL_MATERIAL, new Item.Settings().group(Oceancraft.itemGroup));
+		CORAL_DUST = new Item(DEFAULT_ITEM_SETTINGS);
+		CORAL_INGOT = new Item(DEFAULT_ITEM_SETTINGS);
+		CORAL_SWORD = new CoralSwordItem(CORAL_TOOL_MATERIAL, DEFAULT_ITEM_SETTINGS);
+		CORAL_SHOVEL = new CoralShovelItem(CORAL_TOOL_MATERIAL, DEFAULT_ITEM_SETTINGS);
+		CORAL_AXE = new CoralAxeItem(CORAL_TOOL_MATERIAL, DEFAULT_ITEM_SETTINGS);
+		CORAL_PICKAXE = new CoralPickaxeItem(new CoralToolMaterial(), DEFAULT_ITEM_SETTINGS);
+		CORAL_HOE = new CoralHoeItem(CORAL_TOOL_MATERIAL, DEFAULT_ITEM_SETTINGS);
 
-		CORAL_HELMET = new OceancraftArmorItem(CORAL_ARMOR_MATERIAL, EquipmentSlot.HEAD, new Item.Settings().group(Oceancraft.itemGroup));
-		CORAL_CHESTPLATE = new OceancraftArmorItem(CORAL_ARMOR_MATERIAL, EquipmentSlot.CHEST, new Item.Settings().group(Oceancraft.itemGroup));
-		CORAL_LEGGINGS = new OceancraftArmorItem(CORAL_ARMOR_MATERIAL, EquipmentSlot.LEGS, new Item.Settings().group(Oceancraft.itemGroup));
-		CORAL_BOOTS = new OceancraftArmorItem(CORAL_ARMOR_MATERIAL, EquipmentSlot.FEET, new Item.Settings().group(Oceancraft.itemGroup));
+		CORAL_HELMET = new OceancraftArmorItem(CORAL_ARMOR_MATERIAL, EquipmentSlot.HEAD, DEFAULT_ITEM_SETTINGS);
+		CORAL_CHESTPLATE = new OceancraftArmorItem(CORAL_ARMOR_MATERIAL, EquipmentSlot.CHEST, DEFAULT_ITEM_SETTINGS);
+		CORAL_LEGGINGS = new OceancraftArmorItem(CORAL_ARMOR_MATERIAL, EquipmentSlot.LEGS, DEFAULT_ITEM_SETTINGS);
+		CORAL_BOOTS = new OceancraftArmorItem(CORAL_ARMOR_MATERIAL, EquipmentSlot.FEET, DEFAULT_ITEM_SETTINGS);
 
-		BLACK_PEARL = new Item(new Item.Settings().group(Oceancraft.itemGroup));
+		BLACK_PEARL = new Item(DEFAULT_ITEM_SETTINGS);
 
 
-		
-		SEAWEED_BLOCK = Registry.register(Registry.ITEM, new Identifier(Oceancraft.MOD_ID, "seaweed_block"), SEAWEED_BLOCK);
 
-		CORAL_DUST = Registry.register(Registry.ITEM, new Identifier(Oceancraft.MOD_ID, "coral_dust"), CORAL_DUST);
-		CORAL_INGOT = Registry.register(Registry.ITEM, new Identifier(Oceancraft.MOD_ID, "coral_ingot"), CORAL_INGOT);
-		CORAL_SWORD = Registry.register(Registry.ITEM, new Identifier(Oceancraft.MOD_ID, "coral_sword"), CORAL_SWORD);
-		CORAL_SHOVEL = Registry.register(Registry.ITEM, new Identifier(Oceancraft.MOD_ID, "coral_shovel"), CORAL_SHOVEL);
-		CORAL_AXE = Registry.register(Registry.ITEM, new Identifier(Oceancraft.MOD_ID, "coral_axe"), CORAL_AXE);
-		CORAL_PICKAXE = Registry.register(Registry.ITEM, new Identifier(Oceancraft.MOD_ID, "coral_pickaxe"), CORAL_PICKAXE);
-		CORAL_HOE = Registry.register(Registry.ITEM, new Identifier(Oceancraft.MOD_ID, "coral_hoe"), CORAL_HOE);
-		
-		CORAL_HELMET = Registry.register(Registry.ITEM, new Identifier(Oceancraft.MOD_ID, "coral_helmet"), CORAL_HELMET);
-		CORAL_CHESTPLATE = Registry.register(Registry.ITEM, new Identifier(Oceancraft.MOD_ID, "coral_chestplate"), CORAL_CHESTPLATE);
-		CORAL_LEGGINGS = Registry.register(Registry.ITEM, new Identifier(Oceancraft.MOD_ID, "coral_leggings"), CORAL_LEGGINGS);
-		CORAL_BOOTS = Registry.register(Registry.ITEM, new Identifier(Oceancraft.MOD_ID, "coral_boots"), CORAL_BOOTS);
+		SEAWEED_BLOCK = registerItem(SEAWEED_BLOCK, "seaweed_block");
 
-		BLACK_PEARL = Registry.register(Registry.ITEM, new Identifier(Oceancraft.MOD_ID, "black_pearl"), BLACK_PEARL);
+		CORAL_DUST = registerItem(CORAL_DUST,"coral_dust");
+		CORAL_INGOT = registerItem(CORAL_INGOT, "coral_ingot");
+		CORAL_SWORD = registerItem(CORAL_SWORD, "coral_sword");
+		CORAL_SHOVEL = registerItem(CORAL_SHOVEL, "coral_shovel");
+		CORAL_AXE = registerItem(CORAL_AXE, "coral_axe");
+		CORAL_PICKAXE = registerItem(CORAL_PICKAXE, "coral_pickaxe");
+		CORAL_HOE = registerItem(CORAL_HOE, "coral_hoe");
+
+		CORAL_HELMET = registerItem(CORAL_HELMET, "coral_helmet");
+		CORAL_CHESTPLATE = registerItem(CORAL_CHESTPLATE, "coral_chestplate");
+		CORAL_LEGGINGS = registerItem(CORAL_LEGGINGS, "coral_leggings");
+		CORAL_BOOTS = registerItem(CORAL_BOOTS, "coral_boots");
+
+		BLACK_PEARL = registerItem(BLACK_PEARL, "black_pearl");
 	}
+
+	private static <T extends Item> T registerItem(Item item, String id) {
+        return (T) Registry.register(Registry.ITEM, new Identifier(Oceancraft.MOD_ID, id), item);
+    }
 }

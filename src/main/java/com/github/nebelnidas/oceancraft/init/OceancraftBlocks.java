@@ -3,6 +3,7 @@ package com.github.nebelnidas.oceancraft.init;
 import com.github.nebelnidas.oceancraft.Oceancraft;
 import com.github.nebelnidas.oceancraft.blocks.*;
 
+import net.minecraft.block.Block;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
@@ -16,6 +17,10 @@ public class OceancraftBlocks {
 
 
 
-		SEAWEED_BLOCK = Registry.register(Registry.BLOCK, new Identifier(Oceancraft.MOD_ID, "seaweed_block"), SEAWEED_BLOCK);
+		SEAWEED_BLOCK = registerBlock(SEAWEED_BLOCK, "seaweed_block");
 	}
+
+	private static <T extends Block> T registerBlock(Block block, String id) {
+        return (T) Registry.register(Registry.BLOCK, new Identifier(Oceancraft.MOD_ID, id), block);
+    }
 }

@@ -24,15 +24,16 @@ public class OceancraftItems {
 	public static final ArmorMaterial OCEANCRAFT_TURTLE_ARMOR_MATERIAL = new OceancraftTurtleArmorMaterial();
 
 
-	public static Item BLACK_PEARL;
+	public static BlockItem SEAWEED_BLOCK;
+
 	public static Item CORAL_DUST;
 	public static Item CORAL_INGOT;
 
+	public static ToolItem CORAL_SWORD;
+	public static ToolItem CORAL_SHOVEL;
 	public static ToolItem CORAL_AXE;
 	public static ToolItem CORAL_PICKAXE;
-	public static ToolItem CORAL_SHOVEL;
 	public static ToolItem CORAL_HOE;
-	public static ToolItem CORAL_SWORD;
 
 	public static ArmorItem CORAL_HELMET;
 	public static ArmorItem CORAL_CHESTPLATE;
@@ -41,10 +42,10 @@ public class OceancraftItems {
 
 	public static ArmorItem TURTLE_SHELL;
 
+	public static Item BLACK_PEARL;
 	public static WaterPearlItem WATER_PEARL;
 	public static EnchantedWaterPearlItem ENCHANTED_WATER_PEARL;
 
-	public static BlockItem SEAWEED_BLOCK;
 
 	public static void init() {
 		SEAWEED_BLOCK = new BlockItem(OceancraftBlocks.SEAWEED_BLOCK, DEFAULT_ITEM_SETTINGS);

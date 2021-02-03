@@ -24,6 +24,8 @@ public class OceancraftItems {
 	public static final ArmorMaterial OCEANCRAFT_TURTLE_ARMOR_MATERIAL = new OceancraftTurtleArmorMaterial();
 
 
+	public static BlockItem SEAWEED_PLANT_BLOCK;
+	public static BlockItem THICK_SEAWEED_PLANT_BLOCK;
 	public static BlockItem SEAWEED_BLOCK;
 
 	public static Item CORAL_DUST;
@@ -48,6 +50,8 @@ public class OceancraftItems {
 
 
 	public static void init() {
+		SEAWEED_PLANT_BLOCK = new BlockItem(OceancraftBlocks.SEAWEED_PLANT_BLOCK, DEFAULT_ITEM_SETTINGS);
+		THICK_SEAWEED_PLANT_BLOCK = new BlockItem(OceancraftBlocks.THICK_SEAWEED_PLANT_BLOCK, DEFAULT_ITEM_SETTINGS);
 		SEAWEED_BLOCK = new BlockItem(OceancraftBlocks.SEAWEED_BLOCK, DEFAULT_ITEM_SETTINGS);
 
 		CORAL_DUST = new Item(DEFAULT_ITEM_SETTINGS);
@@ -71,6 +75,8 @@ public class OceancraftItems {
 
 
 
+		SEAWEED_PLANT_BLOCK = registerItem(SEAWEED_PLANT_BLOCK, "seaweed_plant_block");
+		THICK_SEAWEED_PLANT_BLOCK = registerItem(THICK_SEAWEED_PLANT_BLOCK, "thick_seaweed_plant_block");
 		SEAWEED_BLOCK = registerItem(SEAWEED_BLOCK, "seaweed_block");
 
 		CORAL_DUST = registerItem(CORAL_DUST,"coral_dust");

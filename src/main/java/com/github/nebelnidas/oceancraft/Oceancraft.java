@@ -21,6 +21,7 @@ public class Oceancraft implements ModInitializer {
 
 		OceancraftBlocks.init();
 		OceancraftItems.init();
+		OceancraftFeatures.init();
 	}
 	
 }

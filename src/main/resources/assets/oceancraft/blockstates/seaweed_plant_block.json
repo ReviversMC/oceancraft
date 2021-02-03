@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "": {
+            "model": "oceancraft:block/seaweed_plant_block"
+        }
+    }
+}

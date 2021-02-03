@@ -1,5 +1,7 @@
 {
     "variants": {
-        "": { "model": "oceancraft:block/seaweed_block" }
+        "": {
+            "model": "oceancraft:block/seaweed_block"
+        }
     }
 }

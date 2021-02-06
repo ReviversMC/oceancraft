@@ -44,6 +44,7 @@ public class OceancraftItems {
 
 	public static ArmorItem TURTLE_SHELL;
 
+	public static Item WHITE_PEARL;
 	public static Item BLACK_PEARL;
 	public static WaterPearlItem WATER_PEARL;
 	public static EnchantedWaterPearlItem ENCHANTED_WATER_PEARL;
@@ -69,6 +70,7 @@ public class OceancraftItems {
 
 		TURTLE_SHELL = new OceancraftArmorItem(OCEANCRAFT_TURTLE_ARMOR_MATERIAL, EquipmentSlot.CHEST, DEFAULT_ITEM_SETTINGS);
 
+		WHITE_PEARL = new Item(DEFAULT_ITEM_SETTINGS);
 		BLACK_PEARL = new Item(DEFAULT_ITEM_SETTINGS);
 		WATER_PEARL = new WaterPearlItem(DEFAULT_ITEM_SETTINGS);
 		ENCHANTED_WATER_PEARL = new EnchantedWaterPearlItem(DEFAULT_ITEM_SETTINGS);
@@ -94,6 +96,7 @@ public class OceancraftItems {
 
 		TURTLE_SHELL = registerItem(TURTLE_SHELL, "turtle_shell");
 
+		WHITE_PEARL = registerItem(WHITE_PEARL, "white_pearl");
 		BLACK_PEARL = registerItem(BLACK_PEARL, "black_pearl");
 		WATER_PEARL = registerItem(WATER_PEARL, "water_pearl");
 		ENCHANTED_WATER_PEARL = registerItem(ENCHANTED_WATER_PEARL, "enchanted_water_pearl");

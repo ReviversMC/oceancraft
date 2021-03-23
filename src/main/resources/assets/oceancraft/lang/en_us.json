@@ -1,7 +1,6 @@
 {
-	"tile.oceancraft.BlockKelpSeaweed": "Seaweed",
-	"tile.oceancraft.BlockLeafSeaweed": "Seaweed",
-	"tile.oceancraft.BlockCropSeaweed": "Seaweed",
+	"block.oceancraft.seaweed_plant_block": "Seaweed",
+	"block.oceancraft.thick_seaweed_plant_block": "Thick Seaweed",
 	"tile.oceancraft.BlockSeaRodCoral": "Coral",
 	"tile.oceancraft.BlockSeaWhipCoral": "Coral",
 	"tile.oceancraft.BlockSheetCoral": "Coral",

@@ -7,7 +7,7 @@
     ],
     "key": {
         "#": {
-            "item": "oceancraft:seaweed_crop"
+            "tag": "c:underwater_grassplants"
         },
         "X": {
             "item": "oceancraft:white_pearl"

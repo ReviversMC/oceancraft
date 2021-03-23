@@ -1,0 +1,6 @@
+{
+    "parent": "block/tinted_cross",
+    "textures": {
+        "cross": "oceancraft:block/seaweed_plant_block"
+    }
+}

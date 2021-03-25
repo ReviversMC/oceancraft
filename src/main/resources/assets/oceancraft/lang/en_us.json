@@ -1,11 +1,13 @@
 {
 	"block.oceancraft.seaweed_plant_block": "Seaweed",
 	"block.oceancraft.thick_seaweed_plant_block": "Thick Seaweed",
-	"tile.oceancraft.BlockSeaRodCoral": "Coral",
-	"tile.oceancraft.BlockSeaWhipCoral": "Coral",
-	"tile.oceancraft.BlockSheetCoral": "Coral",
-	"tile.oceancraft.BlockStarCoral": "Coral",
-	"tile.oceancraft.BlockBrainCoral": "Coral",
+
+	"block.oceancraft.searod_coral": "Searod Coral",
+	"block.oceancraft.seawhip_coral": "Seawhip Coral",
+	"block.oceancraft.sheet_coral": "Sheet Coral",
+	"block.oceancraft.star_coral": "Star Coral",
+	"block.oceancraft.brain_coral": "Brain Coral",
+
 	"tile.oceancraft.BlockOyster": "Oyster",
 	"tile.oceancraft.BlockOysterSeeds": "Oyster Seeds",
 	"block.oceancraft.seaweed_block": "Seaweed Block",

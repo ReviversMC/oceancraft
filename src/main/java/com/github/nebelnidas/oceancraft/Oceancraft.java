@@ -1,5 +1,6 @@
 package com.github.nebelnidas.oceancraft;
 
+import com.github.nebelnidas.oceancraft.feature.OceancraftFeature;
 import com.github.nebelnidas.oceancraft.init.*;
 
 import net.fabricmc.api.ModInitializer;
@@ -21,7 +22,8 @@ public class Oceancraft implements ModInitializer {
 
 		OceancraftBlocks.init();
 		OceancraftItems.init();
-		OceancraftFeatures.init();
+		OceancraftFeature.init();
+		OceancraftConfiguredFeatures.init();
 	}
 	
 }

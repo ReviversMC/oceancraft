@@ -5,6 +5,11 @@
 	  "minecraft:brain_coral",
 	  "minecraft:bubble_coral",
 	  "minecraft:fire_coral",
-	  "minecraft:horn_coral"
+	  "minecraft:horn_coral",
+	  "oceancraft:searod_coral",
+	  "oceancraft:seawhip_coral",
+	  "oceancraft:sheet_coral",
+	  "oceancraft:star_coral",
+	  "oceancraft:brain_coral"
 	]
 }

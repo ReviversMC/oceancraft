@@ -1,4 +1,4 @@
-> Sorry for the recent inactivity here. To be clear,  I do in fact still plan to update this mod, and may have actually found a partner helping we with this, but currently my other mod, [Modget](https://modrinth.com/mod/modget), is just too time-consuming. If you are somewhat experienced with Minecraft modding, we would be very grateful if you could help us out a little!
+> Sorry for the recent inactivity here. To be clear,  I do in fact still plan to update this mod, and may have actually found a partner helping we with this, but currently my other mod, [Modget](https://github.com/ReviversMC/modget-minecraft), is just too time-consuming. If you are somewhat experienced with Minecraft modding, we would be very grateful if you could help us out a little!
 
 
 ![Oceancraft new logo 2](https://user-images.githubusercontent.com/48808497/104170637-c020af00-5401-11eb-953d-8d1a0bcb369c.png)
